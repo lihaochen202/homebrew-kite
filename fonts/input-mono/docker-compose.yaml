@@ -1,0 +1,8 @@
+services:
+  patcher:
+    image: nerdfonts/patcher
+    volumes:
+      - ./input-mono-source:/in
+      - ./input-mono-nerd-font:/out
+    command: --name postscript -c
+    restart: no

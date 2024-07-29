@@ -1,5 +1,5 @@
 cask "font-input-mono-nerd-font" do
-  version "1.0.0"
+  version "1.0.1"
   sha256 "0ddb2356c20b21dc49f0ab9e98f94acb1d98bd48b3880fd01b34d067d584848a"
 
   url "https://github.com/lihaochen202/homebrew-kite/releases/download/v#{version}/InputMonoNerdFont.zip"
